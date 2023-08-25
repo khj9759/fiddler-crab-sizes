@@ -8,6 +8,7 @@ editor: visual
 ```{r}
 library(lterdatasampler)
 library(tidyverse)
+library(reprex)
 ```
 
 ```{r}
@@ -22,3 +23,5 @@ ggplot(pie_crab, aes(x=size, y=latitude)) +
 ```{r}
 #| fig-cap: "this is my caption"
 ```
+
+new intro1
