@@ -6,7 +6,6 @@ editor: visual
 
 ```{r}
 library(lterdatasampler)
-library(ggplot2)
 ```
 
 ```{r}
