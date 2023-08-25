@@ -2,12 +2,23 @@
 title: "fiddler-crab-sizes"
 format: html
 editor: visual
+  execute: in YAM
 ---
 
 ```{r}
 library(lterdatasampler)
+library(tidyverse)
 ```
 
 ```{r}
 View(pie_crab)
+```
+
+```{r}
+ggplot(pie_crab, aes(x=size, y=latitude)) +
+  geom_point()
+```
+
+```{r}
+#| fig-cap: "this is my caption"
 ```
